@@ -1,0 +1,95 @@
+baseURL = '/'
+defaultContentLanguage = "en"
+languageCode = "en"
+
+title = "Musaubrian"
+
+theme = "gokarna"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+enableEmoji = true
+[params]
+# URL for the avatar on homepage
+avatarURL = "/images/avatar.jpg"
+# Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+avatarSize = "size-m"
+# Description to display on homepage
+description = "Welcome to my little corner on the interwebs"
+# Accent color is displayed when you hover over <a> tags
+# accentColor = "#1e293b"
+
+# Display "back to top" button on posts
+ShowBackToTopButton = true
+dateFormat = "2 January, 2006"
+
+# You can use this to inject any HTML in the <head> tag.
+# Ideal usecase for this is to import custom js/css or add your analytics snippet
+customHeadHTML = '<script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="334b6244-a220-4f2c-a4d5-2aef1818518d" async></script>'
+
+# Keywords relevant for SEO
+metaKeywords = [
+    "blog",
+    "software engineering",
+    "golang",
+    "typescript",
+    "python",
+    "ai",
+    "Artificial Intelligence",
+]
+
+# If you want to display posts on the homepage, the options are
+# "popular" (order posts by weight), "recent" (order posts by date)
+# or "" (do not display, default option)
+showPostsOnHomePage = "recent"
+
+socialIcons = [
+    { name = "twitter", url = "https://x.com/_musaubrian" },
+    { name = "linkedin", url = "https://linkedin.com/in/ernest-musau" },
+]
+# Footer text
+footer = "Musaubrian. All Rights Reserved."
+
+[menu]
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "about"
+url = "/about"
+name = "About"
+weight = 2
+
+
+[[menu.main]]
+# Unique identifier for a menu item
+identifier = "posts"
+url = "/posts/"
+# Display name
+name = "Posts"
+# Weights are used to determine the ordering
+weight = 3
+
+[[menu.main]]
+identifier = "projects"
+url = "/projects/"
+name = "Projects"
+weight = 4
+
+[[menu.main]]
+identifier = "github"
+url = "https://github.com/musaubrian"
+weight = 5
+# We use feather-icons: https://feathericons.com/
+pre = "<span data-feather='github'></span>"
+[menu.main.params]
+newPage = true
+
+[[menu.main]]
+identifier = "rss"
+pre = "<span data-feather='rss'></span>"
+url = "/index.xml"
+weight = 6
