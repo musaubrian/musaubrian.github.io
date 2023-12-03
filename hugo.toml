@@ -46,6 +46,7 @@ showPostsOnHomePage = "recent"
 socialIcons = [
     { name = "twitter", url = "https://x.com/_musaubrian" },
     { name = "linkedin", url = "https://linkedin.com/in/ernest-musau" },
+    { name = "email", url = "mailto:me@nabri.xyz" },
 ]
 # Footer text
 footer = "Musaubrian. All Rights Reserved."

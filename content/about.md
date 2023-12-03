@@ -14,7 +14,7 @@ that have been useful in automating tasks and integrating with other software.
 
 Dedicated to finding elegant solutions to problems and always looking for ways to improve my skills.
 
-Some of the languages I'm farmilier with:
+Some of the languages I'm familiar with:
 - Golang (APIs and CLIs)
 - Python (mostly CLIs)
 - TypeScript (Websites/APIs)
