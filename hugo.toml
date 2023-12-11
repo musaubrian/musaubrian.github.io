@@ -29,7 +29,8 @@ customHeadHTML = '<script src="https://beamanalytics.b-cdn.net/beam.min.js" data
 
 # Keywords relevant for SEO
 metaKeywords = [
-    "blog",
+    "musaubrian",
+    "Ernest Musau",
     "software engineering",
     "golang",
     "typescript",
