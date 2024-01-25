@@ -17,11 +17,13 @@ import soldier
 SCREENSHOT_OPTIONS = [
     {'path': '/', 'filename': 'images/screenshot-{color_pref}-home.png'},
     {'path': '/posts/', 'filename': 'images/screenshot-{color_pref}-list.png'},
-    {'path': '/posts/theme-documentation-basics/', 'filename': 'images/screenshot-{color_pref}-post.png'},
+    {'path': '/posts/theme-documentation-basics/',
+        'filename': 'images/screenshot-{color_pref}-post.png'},
 ]
 
 DARK_THEME = (34, 39, 45, 255)
 LIGHT_THEME = (255, 255, 255, 255)
+
 
 def get_dominant_color(img_path):
     pil_img = Image.open(img_path)
@@ -30,6 +32,7 @@ def get_dominant_color(img_path):
     img.resize((1, 1), resample=0)
     dominant_color = img.getpixel((0, 0))
     return dominant_color
+
 
 def take_screenshots(driver, base_url, screenshot_options):
     for opt in screenshot_options:
@@ -57,6 +60,7 @@ def take_screenshots(driver, base_url, screenshot_options):
 
         print(f'Saved {opt["path"]}')
 
+
 def merge_home_images():
     light_home = Image.open('images/screenshot-light-home.png')
     dark_home = Image.open('images/screenshot-dark-home.png')
@@ -79,8 +83,10 @@ def merge_home_images():
     merged_img.save('images/tn.png')
     print('Created merged image for hugo showcase')
 
+
 def main():
-    sever_process = soldier.run('cd exampleSite && hugo serve', background=True, shell=True)
+    sever_process = soldier.run(
+        'cd exampleSite && hugo serve', background=True, shell=True)
 
     options = Options()
     options.add_argument('--headless')
@@ -97,6 +103,7 @@ def main():
 
     driver.quit()
     sever_process.kill(with_honor=False)
+
 
 if __name__ == '__main__':
     main()

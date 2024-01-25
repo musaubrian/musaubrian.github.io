@@ -15,18 +15,18 @@ avatarURL = "/images/avatar.jpg"
 # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
 avatarSize = "size-m"
 # Description to display on homepage
-description = "Welcome to my little corner on the interwebs"
+description = "I build stuff then try to remember to write about them"
 # Accent color is displayed when you hover over <a> tags
-# accentColor = "#1e293b"
+accentColor = "#6272a4"
 
 # Display "back to top" button on posts
 ShowBackToTopButton = true
 dateFormat = "2 January, 2006"
 
+customHeadHTML = "<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"7fbff78f7f3e435d9f665f1c8f2ced32\"}'></script><!-- End Cloudflare Web Analytics -->"
+
 # You can use this to inject any HTML in the <head> tag.
 # Ideal usecase for this is to import custom js/css or add your analytics snippet
-customHeadHTML = '<script src="https://beamanalytics.b-cdn.net/beam.min.js" data-token="334b6244-a220-4f2c-a4d5-2aef1818518d" async></script>'
-
 # Keywords relevant for SEO
 metaKeywords = [
     "musaubrian",
@@ -37,6 +37,7 @@ metaKeywords = [
     "python",
     "ai",
     "Artificial Intelligence",
+    "neovim",
 ]
 
 # If you want to display posts on the homepage, the options are
