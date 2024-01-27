@@ -3,7 +3,7 @@ title: 'Setup Tailwindcss in Django'
 description: "How to setup tailwindcss with Django"
 date: 2024-01-27T15:48:23+03:00
 type: "post"
-draft: true
+draft: false
 image: "./django+tailwindcss.png
 "
 tags: ["django", "python", "tailwindcss"]
