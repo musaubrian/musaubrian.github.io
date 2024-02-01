@@ -41,7 +41,7 @@ module.exports = {
 
 ## 3. Add TailwindCSS base classes
 
-Create a `static` directory at the root of your project. This will be where 
+Create a `static` directory at the root of your project. This will be where
 the base tailwindcss classes and *generated tailwind classes will be.
 
 ```css
@@ -68,7 +68,13 @@ In your settings.py add the following at the very bottom
 ```py
 # settings.py
 
-STATICFILES_DIRS = [BASE_DIR/"static"]
+# update, this plays nice.
+import os
+SITE_ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
+STATICFILES_DIRS = (
+  os.path.join(SITE_ROOT, 'static/'),
+)
+
 
 ```
 

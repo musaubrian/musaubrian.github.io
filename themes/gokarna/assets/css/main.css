@@ -511,9 +511,10 @@ table td {
 }
 .tags-list .post-tags .post-tag a div {
   display: inline-block;
+  gap: 2;
 }
 .tags-list .post-tags .post-tag a .tag-name {
-  padding: 5px 8px;
+  padding: 5px 10px;
 }
 .tags-list .post-tags .post-tag a .tag-posts-count {
   background-color: var(--light-secondary-color);
@@ -654,7 +655,7 @@ table td {
 }
 
 .arrow-logo:hover {
-  fill:  var(--accent-color); 
+  fill:  var(--accent-color);
 }
 
 @media screen and (max-width: 600px) {
