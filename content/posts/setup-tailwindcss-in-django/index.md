@@ -87,9 +87,11 @@ or, or you can add it to your `package.json` and run it with `npm run tailwind`
 
 ```json
 "scripts": {
-    "tailwind": "npx tailwindcss -i ./static/input.css -o ./static/styles.css --watch"
+    "tailwind": "npx tailwindcss -i ./static/input.css -o ./static/styles.css --watch --minify"
   },
 ```
+> `--minify` removes all the extra whitespaces from the generated css
+
 
 > You can call the command whatever you like it doesn't have to be tailwind
 
