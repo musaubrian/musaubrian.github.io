@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Coding on Musaubrian</title>
+    <link>//localhost:1313/tags/coding/</link>
+    <description>Recent content in Coding on Musaubrian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 25 Jan 2024 14:29:41 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My developer workflow</title>
+      <link>//localhost:1313/posts/my-developer-workflow/</link>
+      <pubDate>Thu, 25 Jan 2024 14:29:41 +0300</pubDate>
+      <guid>//localhost:1313/posts/my-developer-workflow/</guid>
+      <description>OS I have been dailying Pop!_os for over a year now and its honestly been a great time. It only broke twice and both times were my fault -can&amp;rsquo;t really blame me :). Nothing bad to say about except that the pop store lags really really badly, but I rarely use it anywway.&#xA;Tmux This is a must have for me, I never thought I could like a piece of software as much as a I like tmux Not I&amp;rsquo;m not saying that I&amp;rsquo;m a guru at using tmux, but the ability to create sessions and detach from sessions was a game changer for me.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on Musaubrian</title>
+    <link>//localhost:1313/tags/django/</link>
+    <description>Recent content in Django on Musaubrian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Jan 2024 15:48:23 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/django/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setup Tailwindcss in Django</title>
+      <link>//localhost:1313/posts/setup-tailwindcss-in-django/</link>
+      <pubDate>Sat, 27 Jan 2024 15:48:23 +0300</pubDate>
+      <guid>//localhost:1313/posts/setup-tailwindcss-in-django/</guid>
+      <description>I recently was working with django and I kinda wanted to still use tailwind in the world of python.&#xA;Now I&amp;rsquo;d never setup a django project from scratch before, I usually picked up from someone else. But this time I wasn&amp;rsquo;t so lucky.&#xA;1. Install tailwindcss, # at the root of your project npm install -D tailwindcss npx tailwindcss init 2. Configuring TaiwindCSS Configure the tailwind.config.js to capture all your files with tailwind classes.</description>
+    </item>
+  </channel>
+</rss>

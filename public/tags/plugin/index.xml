@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Plugin on Musaubrian</title>
+    <link>//localhost:1313/tags/plugin/</link>
+    <description>Recent content in Plugin on Musaubrian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 24 Feb 2024 21:40:15 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/plugin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>jade.nvim</title>
+      <link>//localhost:1313/posts/jade/</link>
+      <pubDate>Sat, 24 Feb 2024 21:40:15 +0300</pubDate>
+      <guid>//localhost:1313/posts/jade/</guid>
+      <description>I&amp;rsquo;ve been dailying neovim for a while now and I decided to use the nightly build because why not, and it was okay for most things, I mean it is neovim after all.&#xA;But it kept crashing for reasons I wasn&amp;rsquo;t really ready to figure out, so I did the sane thing - moved back to the stable version. It was great and all but I missed the default theme that came with the nightly builds, it was really clean, and also I liked TJ&amp;rsquo;s theme(gruvbuddy) -very few colors on the screen.</description>
+    </item>
+  </channel>
+</rss>
