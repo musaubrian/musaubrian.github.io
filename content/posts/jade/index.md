@@ -2,11 +2,11 @@
 title: 'Jade.nvim'
 description: "a simple neovim colorscheme"
 date:  2024-02-24T21:40:15+03:00
-draft: true
+draft: false
 type: "post"
 tags: ["neovim", "plugin", "colorscheme"]
 ---
-![alt text](nvim.jpg)
+![Neovim logo](nvim.jpg)
 
 I've been dailying neovim for a while now, I decide to use the nightly build and it was okay for most things,
 I mean it is neovim after all.
