@@ -23,7 +23,8 @@ accentColor = "#6272a4"
 ShowBackToTopButton = true
 dateFormat = "2 January, 2006"
 
-customHeadHTML = "<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{\"token\": \"7fbff78f7f3e435d9f665f1c8f2ced32\"}'></script><!-- End Cloudflare Web Analytics -->"
+customHeadHTML = '<script defer data-domain="nabri.xyz" src="https://plausible.nabri.xyz/js/script.js"></script>'
+
 
 # You can use this to inject any HTML in the <head> tag.
 # Ideal usecase for this is to import custom js/css or add your analytics snippet
