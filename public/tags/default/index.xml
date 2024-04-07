@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Default on Musaubrian</title>
+    <link>//localhost:1313/tags/default/</link>
+    <description>Recent content in Default on Musaubrian</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Apr 2024 15:15:50 +0300</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/default/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>host your own ollama</title>
+      <link>//localhost:1313/posts/host-your-own-ollama/</link>
+      <pubDate>Sun, 07 Apr 2024 15:15:50 +0300</pubDate>
+      <guid>//localhost:1313/posts/host-your-own-ollama/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

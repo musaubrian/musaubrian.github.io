@@ -6,8 +6,22 @@
     <description>Recent content on Musaubrian</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 24 Feb 2024 21:40:15 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 07 Apr 2024 15:15:50 +0300</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>host your own llm</title>
+      <link>//localhost:1313/posts/host-your-own-llm/</link>
+      <pubDate>Sun, 07 Apr 2024 15:15:50 +0300</pubDate>
+      <guid>//localhost:1313/posts/host-your-own-llm/</guid>
+      <description>Intro If you don&amp;rsquo;t already know what ollama is, I don&amp;rsquo;t know which rock you&amp;rsquo;ve been living under. Basically its a simplified way of getting up and running with large language modals(LLMs) locally, giving you ChatGPT like capabilities right on your very own device.&#xA;We are going to give you this same capabilities but, on a virtual private server(vps) like digitalocean, hetzner or linode; allowing you to have them on demand over the internet.</description>
+    </item>
+    <item>
+      <title>Locama</title>
+      <link>//localhost:1313/posts/locama/</link>
+      <pubDate>Sun, 07 Apr 2024 15:09:56 +0300</pubDate>
+      <guid>//localhost:1313/posts/locama/</guid>
+      <description></description>
+    </item>
     <item>
       <title>jade.nvim</title>
       <link>//localhost:1313/posts/jade/</link>

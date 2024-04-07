@@ -17,26 +17,26 @@
     
 
     
-    <title>jade.nvim</title>
-    <meta name="description" content="a simple neovim colorscheme">
-    <meta name="keywords" content='musaubrian, Ernest Musau, software engineering, golang, typescript, python, ai, Artificial Intelligence, neovim, plugin, colorscheme'>
+    <title>host your own llm</title>
+    <meta name="description" content="Setup ollama, to be usable over the internet">
+    <meta name="keywords" content='musaubrian, Ernest Musau, software engineering, golang, typescript, python, ai, Artificial Intelligence, neovim, ollama, self-host, large language models, LLMs'>
 
-    <meta property="og:url" content="//localhost:1313/posts/jade/">
+    <meta property="og:url" content="//localhost:1313/posts/host-your-own-llm/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="jade.nvim">
-    <meta property="og:description" content="a simple neovim colorscheme">
+    <meta property="og:title" content="host your own llm">
+    <meta property="og:description" content="Setup ollama, to be usable over the internet">
     <meta property="og:image" content="//localhost:1313/images/avatar.jpg">
     <meta property="og:image:secure_url" content="//localhost:1313/images/avatar.jpg">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="jade.nvim">
-    <meta name="twitter:description" content="a simple neovim colorscheme">
-    <meta property="twitter:domain" content="//localhost:1313/posts/jade/">
-    <meta property="twitter:url" content="//localhost:1313/posts/jade/">
+    <meta name="twitter:title" content="host your own llm">
+    <meta name="twitter:description" content="Setup ollama, to be usable over the internet">
+    <meta property="twitter:domain" content="//localhost:1313/posts/host-your-own-llm/">
+    <meta property="twitter:url" content="//localhost:1313/posts/host-your-own-llm/">
     <meta name="twitter:image" content="//localhost:1313/images/avatar.jpg">
 
     
-    <link rel="canonical" href="//localhost:1313/posts/jade/" />
+    <link rel="canonical" href="//localhost:1313/posts/host-your-own-llm/" />
 
     
     <link rel="stylesheet" type="text/css" href="/css/normalize.min.css" media="print">
@@ -151,35 +151,49 @@
 <main id="content">
     <div class="post container">
     <div class="post-header-section">
-        <h1>jade.nvim</h1>
-        <small role="doc-subtitle">a simple neovim colorscheme</small>
-        <p class="post-date">24 February, 2024
+        <h1>host your own llm</h1>
+        <small role="doc-subtitle">Setup ollama, to be usable over the internet</small>
+        <p class="post-date">7 April, 2024
         
         </p>
 
         <ul class="post-tags">
         
-            <li class="post-tag"><a href="//localhost:1313/tags/neovim">neovim</a></li>
+            <li class="post-tag"><a href="//localhost:1313/tags/ai">ai</a></li>
         
-            <li class="post-tag"><a href="//localhost:1313/tags/plugin">plugin</a></li>
+            <li class="post-tag"><a href="//localhost:1313/tags/ollama">ollama</a></li>
         
-            <li class="post-tag"><a href="//localhost:1313/tags/colorscheme">colorscheme</a></li>
+            <li class="post-tag"><a href="//localhost:1313/tags/self-host">self-host</a></li>
+        
+            <li class="post-tag"><a href="//localhost:1313/tags/large-language-models">large language models</a></li>
+        
+            <li class="post-tag"><a href="//localhost:1313/tags/llms">LLMs</a></li>
         
         </ul>
     </div>
 
     <div class="post-content">
         <p>
-            <p><img src="nvim.jpg" alt="Neovim logo"></p>
-<p>I&rsquo;ve been dailying neovim for a while now and I decided to use the nightly build because why not, and it was okay for most things, I mean it is neovim after all.</p>
-<p>But it kept crashing for reasons I wasn&rsquo;t really ready to figure out, so I did the sane thing - moved back to the stable version.
-It was great and all but I missed the default theme that came with the nightly builds, it was really clean, and also I liked TJ&rsquo;s theme(<a href="https://github.com/tjdevries/gruvbuddy.nvim">gruvbuddy</a>) -very few colors on the screen.</p>
-<p>I embarked on a journey to try and replicate the default theme from the nightly neovim builds. Luckily for me, I found <a href="https://github.com/tjdevries/colorbuddy.nvim">colorbuddy</a> which made creating the colorscheme a breeze.
-I didn&rsquo;t know exactly where to begin so I got some <em>inspiration</em> from <a href="https://github.com/redbug312/cactusbuddy">cactus buddy</a>
-I was quite pleased with the results actually, a colorscheme that got out of my way and didn&rsquo;t distract me with all the unicorn bullshit.</p>
-<p>Is it perfect? - NO. It doesn&rsquo;t really cover every highlight group, just most of those that I interact with most of the time.</p>
-<p>Will I update it? - Probably not, I feel like its satisfactory for me in its current state</p>
-<p>Check it out <a href="https://github.com/musaubrian/jade.nvim"><strong>jade.nvim</strong></a> or give creating your own colorscheme a shot.</p>
+            <h2 id="intro">Intro</h2>
+<p>If you don&rsquo;t already know what <a href="https://ollama.com">ollama</a> is, I don&rsquo;t know which rock you&rsquo;ve been living under.
+Basically its a simplified way of getting up and running with large language modals(<strong>LLMs</strong>) locally,
+giving you ChatGPT like capabilities right on your very own device.</p>
+<p>We are going to give you this same capabilities but, on a virtual private server(<strong>vps</strong>) like digitalocean, hetzner or linode;
+allowing you to have them on demand over the internet.</p>
+<blockquote>
+<p>I am going to use digitalocean as its what I have available.</p>
+</blockquote>
+<p>After you&rsquo;ve already setup your server on digital ocean.</p>
+<blockquote>
+<p>[!NOTE]</p>
+<p>Ollama recommends that you should have at least 8 GB of RAM to run the 3B models, 16 GB to run the 7B models, and 32 GB to run the 13B models.</p>
+</blockquote>
+<p>ssh into your server and install <a href="https://ollama.com/download">ollama</a>.
+For this tutorial, we&rsquo;ll use the neural-chat model, its lightweight and can run in machines with less than 8gigs.</p>
+<p>Download it using <code>ollama pull neural-chat</code> and run it using <code>ollama run neural-chat</code>.</p>
+<p>That&rsquo;s it, you have your own instance of an llm on your machine.
+But we don&rsquo;t want it be available on our machine only right, we want to use it on our phones like ChatGPT.</p>
+<!-- raw HTML omitted -->
 
         </p>
         
