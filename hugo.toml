@@ -1,99 +1,59 @@
 baseURL = '/'
 defaultContentLanguage = "en"
 languageCode = "en"
+title = "CoreDump"
+theme = "typo"
 
-title = "Musaubrian"
-
-theme = "gokarna"
-
-# Automatically generate robots.txt
-enableRobotsTXT = true
-enableEmoji = true
 [params]
-# URL for the avatar on homepage
-avatarURL = "/images/avatar.jpg"
-# Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-avatarSize = "size-m"
-# Description to display on homepage
-description = "I build stuff then try to remember to write about them"
-# Accent color is displayed when you hover over <a> tags
-accentColor = "#6272a4"
+description = "Sort of a braindump"
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = true
 
-# Display "back to top" button on posts
-ShowBackToTopButton = true
-dateFormat = "2 January, 2006"
+# homeIntroTitle = 'Hi!'
+# homeIntroContent = """
+#"""
+homeIntroContent = "Building stuff then trying to remember to write about them"
 
-customHeadHTML = '<script defer data-domain="nabri.xyz" src="https://plausible.nabri.xyz/js/script.js"></script>'
+homeCollectionTitle = 'Posts'
+homeCollection = 'posts'
+paginationSize = 5
+listSummaries = true
+listDateFormat = '2 Jan, 2006'
 
+breadcrumbs = true
 
-# You can use this to inject any HTML in the <head> tag.
-# Ideal usecase for this is to import custom js/css or add your analytics snippet
-# Keywords relevant for SEO
-metaKeywords = [
-    "musaubrian",
-    "Ernest Musau",
-    "software engineering",
-    "golang",
-    "typescript",
-    "python",
-    "ai",
-    "Artificial Intelligence",
-    "neovim",
-]
-
-# If you want to display posts on the homepage, the options are
-# "popular" (order posts by weight), "recent" (order posts by date)
-# or "" (do not display, default option)
-showPostsOnHomePage = "recent"
-
-socialIcons = [
-    { name = "twitter", url = "https://x.com/_musaubrian" },
-    { name = "linkedin", url = "https://linkedin.com/in/ernest-musau" },
-    { name = "email", url = "mailto:me@nabri.xyz" },
-]
-# Footer text
-footer = "Musaubrian. All Rights Reserved."
-
-[menu]
-
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-identifier = "about"
-url = "/about"
-name = "About"
-weight = 2
-
-
-[[menu.main]]
-# Unique identifier for a menu item
-identifier = "posts"
-url = "/posts/"
-# Display name
-name = "Posts"
-# Weights are used to determine the ordering
-weight = 3
-
-[[menu.main]]
-identifier = "projects"
-url = "/projects/"
-name = "Projects"
-weight = 4
-
-[[menu.main]]
-identifier = "github"
+[[params.social]]
+name = "github"
 url = "https://github.com/musaubrian"
-weight = 5
-# We use feather-icons: https://feathericons.com/
-pre = "<span data-feather='github'></span>"
-[menu.main.params]
-newPage = true
 
-[[menu.main]]
-identifier = "rss"
-pre = "<span data-feather='rss'></span>"
-url = "/index.xml"
-weight = 6
+[[params.social]]
+name="twitter"
+url="https://x.com/_musaubrian"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/ernest-musau/"
+
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "posts"
+url = "/posts"
+
+[[params.menu]]
+name = "about"
+url = "/about"
+
+[[params.menu]]
+name="projects"
+url="/projects"
+
+# Syntax highligth on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'

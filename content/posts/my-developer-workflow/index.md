@@ -1,11 +1,10 @@
 ---
 title: 'My developer workflow'
+summary: "some of the tools I use on a daily basis while building stuff"
 date:  2024-01-25T14:29:41+03:00
-draft: false
-type:  "post"
+readTime: true
 tags:  ["neovim", "developer-workflow", "tmux", "coding", "programming"]
 ---
-
 
 ## OS
 I have been dailying Pop!_os for over a year now and its honestly been a great time.

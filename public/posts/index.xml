@@ -1,47 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Musaubrian</title>
+    <title>Posts on CoreDump</title>
     <link>//localhost:1313/posts/</link>
-    <description>Recent content in Posts on Musaubrian</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Posts on CoreDump</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Apr 2024 15:15:50 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 21:40:15 +0300</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>host your own ollama</title>
-      <link>//localhost:1313/posts/host-your-own-ollama/</link>
-      <pubDate>Sun, 07 Apr 2024 15:15:50 +0300</pubDate>
-      <guid>//localhost:1313/posts/host-your-own-ollama/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Locama</title>
-      <link>//localhost:1313/posts/locama/</link>
-      <pubDate>Sun, 07 Apr 2024 15:09:56 +0300</pubDate>
-      <guid>//localhost:1313/posts/locama/</guid>
-      <description></description>
-    </item>
     <item>
       <title>jade.nvim</title>
       <link>//localhost:1313/posts/jade/</link>
       <pubDate>Sat, 24 Feb 2024 21:40:15 +0300</pubDate>
       <guid>//localhost:1313/posts/jade/</guid>
-      <description>I&amp;rsquo;ve been dailying neovim for a while now and I decided to use the nightly build because why not, and it was okay for most things, I mean it is neovim after all.&#xA;But it kept crashing for reasons I wasn&amp;rsquo;t really ready to figure out, so I did the sane thing - moved back to the stable version. It was great and all but I missed the default theme that came with the nightly builds, it was really clean, and also I liked TJ&amp;rsquo;s theme(gruvbuddy) -very few colors on the screen.</description>
+      <description>why I built my own colorscheme</description>
     </item>
     <item>
       <title>Setup Tailwindcss in Django</title>
       <link>//localhost:1313/posts/setup-tailwindcss-in-django/</link>
       <pubDate>Sat, 27 Jan 2024 15:48:23 +0300</pubDate>
       <guid>//localhost:1313/posts/setup-tailwindcss-in-django/</guid>
-      <description>I recently was working with django and I kinda wanted to still use tailwind in the world of python.&#xA;Now I&amp;rsquo;d never setup a django project from scratch before, I usually picked up from someone else. But this time I wasn&amp;rsquo;t so lucky.&#xA;1. Install tailwindcss, # at the root of your project npm install -D tailwindcss npx tailwindcss init 2. Configuring TaiwindCSS Configure the tailwind.config.js to capture all your files with tailwind classes.</description>
+      <description>How to setup tailwindcss with Django</description>
     </item>
     <item>
       <title>My developer workflow</title>
       <link>//localhost:1313/posts/my-developer-workflow/</link>
       <pubDate>Thu, 25 Jan 2024 14:29:41 +0300</pubDate>
       <guid>//localhost:1313/posts/my-developer-workflow/</guid>
-      <description>OS I have been dailying Pop!_os for over a year now and its honestly been a great time. It only broke twice and both times were my fault -can&amp;rsquo;t really blame me :). Nothing bad to say about except that the pop store lags really really badly, but I rarely use it anywway.&#xA;Tmux This is a must have for me, I never thought I could like a piece of software as much as a I like tmux Not I&amp;rsquo;m not saying that I&amp;rsquo;m a guru at using tmux, but the ability to create sessions and detach from sessions was a game changer for me.</description>
+      <description>some of the tools I use on a daily basis while building stuff</description>
     </item>
   </channel>
 </rss>

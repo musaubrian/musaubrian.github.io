@@ -1,61 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Musaubrian</title>
+    <title>Home on CoreDump</title>
     <link>//localhost:1313/</link>
-    <description>Recent content on Musaubrian</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Home on CoreDump</description>
+    <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 07 Apr 2024 15:15:50 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Feb 2024 21:40:15 +0300</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>host your own llm</title>
-      <link>//localhost:1313/posts/host-your-own-llm/</link>
-      <pubDate>Sun, 07 Apr 2024 15:15:50 +0300</pubDate>
-      <guid>//localhost:1313/posts/host-your-own-llm/</guid>
-      <description>Intro If you don&amp;rsquo;t already know what ollama is, I don&amp;rsquo;t know which rock you&amp;rsquo;ve been living under. Basically its a simplified way of getting up and running with large language modals(LLMs) locally, giving you ChatGPT like capabilities right on your very own device.&#xA;We are going to give you this same capabilities but, on a virtual private server(vps) like digitalocean, hetzner or linode; allowing you to have them on demand over the internet.</description>
-    </item>
-    <item>
-      <title>Locama</title>
-      <link>//localhost:1313/posts/locama/</link>
-      <pubDate>Sun, 07 Apr 2024 15:09:56 +0300</pubDate>
-      <guid>//localhost:1313/posts/locama/</guid>
-      <description></description>
-    </item>
     <item>
       <title>jade.nvim</title>
       <link>//localhost:1313/posts/jade/</link>
       <pubDate>Sat, 24 Feb 2024 21:40:15 +0300</pubDate>
       <guid>//localhost:1313/posts/jade/</guid>
-      <description>I&amp;rsquo;ve been dailying neovim for a while now and I decided to use the nightly build because why not, and it was okay for most things, I mean it is neovim after all.&#xA;But it kept crashing for reasons I wasn&amp;rsquo;t really ready to figure out, so I did the sane thing - moved back to the stable version. It was great and all but I missed the default theme that came with the nightly builds, it was really clean, and also I liked TJ&amp;rsquo;s theme(gruvbuddy) -very few colors on the screen.</description>
+      <description>why I built my own colorscheme</description>
     </item>
     <item>
       <title>Setup Tailwindcss in Django</title>
       <link>//localhost:1313/posts/setup-tailwindcss-in-django/</link>
       <pubDate>Sat, 27 Jan 2024 15:48:23 +0300</pubDate>
       <guid>//localhost:1313/posts/setup-tailwindcss-in-django/</guid>
-      <description>I recently was working with django and I kinda wanted to still use tailwind in the world of python.&#xA;Now I&amp;rsquo;d never setup a django project from scratch before, I usually picked up from someone else. But this time I wasn&amp;rsquo;t so lucky.&#xA;1. Install tailwindcss, # at the root of your project npm install -D tailwindcss npx tailwindcss init 2. Configuring TaiwindCSS Configure the tailwind.config.js to capture all your files with tailwind classes.</description>
+      <description>How to setup tailwindcss with Django</description>
     </item>
     <item>
       <title>My developer workflow</title>
       <link>//localhost:1313/posts/my-developer-workflow/</link>
       <pubDate>Thu, 25 Jan 2024 14:29:41 +0300</pubDate>
       <guid>//localhost:1313/posts/my-developer-workflow/</guid>
-      <description>OS I have been dailying Pop!_os for over a year now and its honestly been a great time. It only broke twice and both times were my fault -can&amp;rsquo;t really blame me :). Nothing bad to say about except that the pop store lags really really badly, but I rarely use it anywway.&#xA;Tmux This is a must have for me, I never thought I could like a piece of software as much as a I like tmux Not I&amp;rsquo;m not saying that I&amp;rsquo;m a guru at using tmux, but the ability to create sessions and detach from sessions was a game changer for me.</description>
+      <description>some of the tools I use on a daily basis while building stuff</description>
     </item>
     <item>
       <title>Projects</title>
       <link>//localhost:1313/projects/</link>
       <pubDate>Fri, 01 Dec 2023 10:54:34 +0300</pubDate>
       <guid>//localhost:1313/projects/</guid>
-      <description>Some of the things I&amp;rsquo;ve built:&#xA;Name What it does Netmon network monitoring tool built using Go TinyGo simple CLI password manager built in Go RepoGen Let&amp;rsquo;s you create repos on github from the terminal PyNet Send files over the networj using python. (this was more of a proof of concept) Gno A custom build system built in go. Heavily inspired by nobuild just not as good </description>
+      <description>Some of the things I&amp;rsquo;ve built:&#xA;Name What it does Netmon network monitoring tool built using Go Tg simple CLI password manager built in Go RepoGen Let&amp;rsquo;s you create repos on github from the terminal PyNet Send files over the networj using python. (this was more of a proof of concept) Gno A custom build system built in go. Heavily inspired by nobuild just not as good Sik A sort of local search engine for markdown files </description>
     </item>
     <item>
       <title>About</title>
       <link>//localhost:1313/about/</link>
       <pubDate>Fri, 01 Dec 2023 10:51:24 +0300</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>Hi there, I&amp;rsquo;m Ernest Musau (musaubrian).&#xA;Developer with a focus on creating visually appealing websites with an understanding of web development technologies able to create functional and responsive websites.&#xA;Interested in scripting and have built a few command-line interface (CLI) tools that have been useful in automating tasks and integrating with other software.&#xA;Dedicated to finding elegant solutions to problems and always looking for ways to improve my skills.&#xA;Some of the languages I&amp;rsquo;m familiar with:</description>
+      <description>I am a software engineer interested in a range of topics including CLIs, developer tools, recently taken a liking to mobile development.&#xA;Resume</description>
     </item>
   </channel>
 </rss>
