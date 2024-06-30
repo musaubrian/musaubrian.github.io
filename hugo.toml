@@ -10,9 +10,6 @@ theme = 'auto'
 colorPalette = 'default'
 hideHeader = true
 
-# homeIntroTitle = 'Hi!'
-# homeIntroContent = """
-#"""
 homeIntroContent = "Building stuff then trying to remember to write about them"
 
 homeCollectionTitle = 'Posts'
@@ -28,8 +25,8 @@ name = "github"
 url = "https://github.com/musaubrian"
 
 [[params.social]]
-name="twitter"
-url="https://x.com/_musaubrian"
+name = "twitter"
+url = "https://x.com/_musaubrian"
 
 [[params.social]]
 name = "linkedin"
@@ -50,8 +47,8 @@ name = "about"
 url = "/about"
 
 [[params.menu]]
-name="projects"
-url="/projects"
+name = "projects"
+url = "/projects"
 
 # Syntax highligth on code blocks
 [markup]
