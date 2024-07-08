@@ -14,7 +14,6 @@ If you don't already know what [ollama](https://ollama.com) is, I don't know whi
 Basically its a simplified way of getting up and running with large language modals(**LLMs**) locally,
 giving you ChatGPT like capabilities right on your very own device.
 
-We are going to give you this same capabilities but on your machine.
 Before we dive in, just a heads up:
 
 > Ollama says you should have at least 8 GB of RAM to run the 3B models, 16 GB for the 7B models, and 32 GB for the 13B big boys.
