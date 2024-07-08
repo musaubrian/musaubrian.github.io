@@ -266,20 +266,25 @@ footer a {
 
 .single-readtime {
   margin-top: .5rem;
+  font-size: 1rem;
   color: var(--content-secondary);
 }
 
 .single-summary {
   margin-bottom: 0;
+  font-size: 0.9rem;
   color: var(--content-secondary);
 }
 
+
 .single-content {
   margin-bottom: 5rem;
+  font-size: 1.1rem;
 }
 
 .single-tags {
   margin-top: -1rem;
+  font-size: 0.9rem;
 }
 
 .single-tags span {
