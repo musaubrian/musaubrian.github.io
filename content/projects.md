@@ -1,15 +1,26 @@
 ---
 title : 'Projects'
-date  : 2023-12-01T10:54:34+03:00
 ---
 
 Some of the things I've built:
 
-| Name                                               | What it does                                                                                                              |
-| ---                                                | ---                                                                                                                       |
-| **[Netmon](https://github.com/musaubrian/netmon)** | network monitoring tool built using Go                                                                                    |
-| **[Tg](https://github.com/musaubrian/tg)**         | simple CLI password manager built in Go                                                                                   |
-| **[RepoGen](https://github.com/musaubrian/rgn)**   | Let's you create repos on github from the terminal                                                                        |
-| **[PyNet](https://github.com/musaubrian/pynet)**   | Send files over the networj using python. (this was more of a proof of concept)                                           |
-| **[Gno](https://github.com/musaubrian/gno)**       | A custom build system built in go. Heavily inspired by **[nobuild](https://github.com/tsoding/nobuild)** just not as good |
-| **[Sik](https://github.com/musaubrian/sik)**       | A sort of local search engine for markdown files                                                                          |
+### **[Netmon](https://github.com/musaubrian/netmon)**
+Network monitoring tool built using Go.
+Built it to answer the question, what if you could view the results of ping on a graph from anywhere
+Also kind of my first *serious -if you could call it that- in Go
+
+### **[Tg](https://github.com/musaubrian/tg)**
+A tiny cli based password manager.
+I was just tired of trying to remember password so I built this
+
+### **[Rgn](https://github.com/musaubrian/rgn)**
+This is also a CLI tool I built to allow me do most of my common actions on github directly from a terminal.
+Its basically a shittier stripped down version of github's cli.
+
+### **[Sik](https://github.com/musaubrian)**
+Cheap knockoff of [seroost](https://github.com/tsoding/seroost) which is a local search engine.
+But I built it to allow me search through my notes
+
+
+> If you'd like to see some other unnecessary things I built, you can check them out [here](https://github.com/musaubrian?tab=repositories)
+
