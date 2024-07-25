@@ -135,7 +135,7 @@ hr {
 }
 
 .header-title {
-  font-size: 2.6em;
+  font-size: 2.3rem;
   font-weight: bold;
   margin-bottom: 0;
   margin-top: 0;
@@ -266,7 +266,8 @@ footer a {
 
 .single-readtime {
   margin-top: .5rem;
-font-size: 1rem;
+  font-size: 0.9rem;
+  font-style: italic;
   color: var(--content-secondary);
 }
 
@@ -280,6 +281,9 @@ font-size: 1rem;
 .single-content {
   margin-bottom: 5rem;
   font-size: 1.1rem;
+}
+.single-content > p {
+  font-size: 1rem;
 }
 
 .single-tags {
@@ -355,6 +359,7 @@ font-size: 1rem;
   margin-bottom: .1rem;
 }
 
+font-style: italic;
 .toc li {
   margin-top: .1rem;
   margin-bottom: .1rem;
@@ -518,8 +523,10 @@ table code {
 /* Quotes */
 
 blockquote {
+  font-size: 1.1rem;
   margin: 1.5rem;
   border-left: solid 1px;
+  font-style: italic;
   color: var(--content-secondary);
 }
 
