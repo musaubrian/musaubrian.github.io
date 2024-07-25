@@ -26,7 +26,7 @@ url = "https://github.com/musaubrian"
 
 [[params.social]]
 name = "twitter"
-url = "https://x.com/_musaubrian"
+url = "https://x.com/0xMusau"
 
 [[params.social]]
 name = "linkedin"
@@ -50,7 +50,6 @@ url = "/about"
 name = "projects"
 url = "/projects"
 
-# Syntax highligth on code blocks
 [markup]
 [markup.highlight]
 style = 'algol'
