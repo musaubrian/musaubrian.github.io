@@ -6,6 +6,14 @@
     <description>Recent content in Code on CoreDump</description>
     <generator>Hugo</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 24 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My rants go here</title>
+      <link>//localhost:1313/rant/</link>
+      <pubDate>Sat, 24 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/rant/</guid>
+      <description>brief summary</description>
+    </item>
   </channel>
 </rss>

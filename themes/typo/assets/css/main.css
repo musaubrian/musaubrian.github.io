@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  font-family: "Literata";
+  font-family: "Bitter";
+  font-optical-sizing: auto;
   margin: auto;
   max-width: var(--main-width);
   padding-left: var(--main-padding);
@@ -135,7 +136,7 @@ hr {
 }
 
 .header-title {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 0;
   margin-top: 0;
