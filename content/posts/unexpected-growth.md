@@ -1,7 +1,6 @@
 ---
-title: 'Unexpected Growth: A Tech Interview Story'
+title: 'Unexpected Growth'
 description: 'Navigating a startup interview: from initial struggles to surprising triumphs and valuable lessons'
-summary: 'An honest account of tackling a challenging tech interview, overcoming initial setbacks, unexpectedly excelling, and ultimately growing from the experience despite not landing the role'
 date: 2024-08-24
 tags: ["reflections"]
 showTags: true

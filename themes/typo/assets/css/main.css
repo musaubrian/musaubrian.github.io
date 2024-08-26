@@ -183,15 +183,17 @@ footer a {
 .line-date {
   font-family: "DM Mono", monospace;
   font-size: 0.9rem;
-  text-align: right;
+  text-align: start;
   margin-bottom: .5rem;
   display: inline-flex;
   justify-content: start;
+  color: var(--content-secondary);
 }
 .post-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
   gap: 2;
 }
 

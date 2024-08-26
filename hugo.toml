@@ -12,9 +12,9 @@ hideHeader = true
 
 homeIntroContent = "Building stuff then trying to remember to write about them"
 
-homeCollectionTitle = 'Posts'
+homeCollectionTitle = 'Previous Posts'
 homeCollection = 'posts'
-paginationSize = 5
+paginationSize = 6
 listSummaries = false
 listDateFormat = '2 Jan, 2006'
 
