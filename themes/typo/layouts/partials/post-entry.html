@@ -5,9 +5,8 @@
     {{ $dateFormat = .}}
     {{ end }}
 
-    <p class="line-date">{{ .Date.Format $dateFormat }} </p>
 
-    <div>
+    <div class="post-content">
         <p class="line-title">
             <a href="{{ .RelPermalink }}">
                 {{ .Title }}
@@ -17,5 +16,6 @@
         {{ if .Site.Params.listSummaries }}
         <p class="line-summary"> {{ .Summary }} </p>
         {{ end }}
+        <p class="line-date">{{ .Date.Format $dateFormat }} </p>
     </div>
 </div>

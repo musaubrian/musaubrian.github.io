@@ -2,14 +2,16 @@
     --content-primary: rgb(36, 36, 36);
     --content-secondary: rgb(117, 117, 117);
     --background: rgb(255, 255, 255);
-    --code-background: rgb(249, 249, 249);
-    --code-border: rgb(229, 229, 229);
+    --code-background: rgb(230, 233, 239);
+    --code-border: rgb(188, 192, 204);
+    --a-color: #226ac4;
 }
 
 .dark {
-    --content-primary: rgb(218, 218, 218);
-    --content-secondary: rgb(140, 140, 140);
+    --content-primary: rgb(232,236,251);
+    --content-secondary: rgb(165, 173, 206);
     --background: rgb(20, 20, 20);
-    --code-background: rgb(30, 30, 30);
-    --code-border: rgb(50, 50, 50);
+    --code-background: rgb(33,35,48);
+    --code-border: rgb(81, 87, 109);
+    --a-color: #73a7e7;
 }
