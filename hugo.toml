@@ -26,11 +26,11 @@ url = "https://github.com/musaubrian"
 
 [[params.social]]
 name = "twitter"
-url = "https://x.com/0xMusau"
+url = "https://x.com/ulongmax"
 
-[[params.social]]
-name = "linkedin"
-url = "https://www.linkedin.com/in/ernest-musau/"
+# [[params.social]]
+# name = "linkedin"
+# url = "https://www.linkedin.com/in/ernest-musau/"
 
 
 # Main menu pages
@@ -42,9 +42,9 @@ url = "/"
 name = "posts"
 url = "/posts"
 
-[[params.menu]]
-name = "about"
-url = "/about"
+# [[params.menu]]
+# name = "about"
+# url = "/about"
 
 [[params.menu]]
 name = "projects"
