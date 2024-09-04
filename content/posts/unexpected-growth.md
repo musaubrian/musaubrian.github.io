@@ -45,9 +45,6 @@ It pushed me out of my comfort zone, showed me my strengths, and pointed out are
 The adrenaline rush of problem-solving under pressure, the satisfaction of overcoming challenges, and even the momentary panic - it was all part of the growth process.
 
 
-In the end, every interview is a stepping stone. Whether you land the job or not,
-the real win is in the learning and the leveling up. Embrace the journey,
-because that's where the true growth happens.
 
 
 
