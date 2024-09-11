@@ -88,7 +88,5 @@ or, or you can add it to your `package.json` and run it with `npm run tailwind`
   },
 ```
 > `--minify` removes all the extra whitespaces from the generated css
-
-
 > You can call the command whatever you like it doesn't have to be tailwind
 
