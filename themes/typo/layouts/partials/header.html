@@ -1,23 +1,16 @@
 {{/* Header */}}
 
 <div class="header">
+  {{ if or (not (.Param "hideHeader")) .IsHome }}
 
-    {{ if or (not (.Param "hideHeader")) .IsHome }}
+  <!--disable site header, don't really like it-->
+  <!--<h1 class="header-title">{{ site.Title }}</h1>-->
 
-    <h1 class="header-title">{{ site.Title }}</h1>
+  <div class="flex">
+    {{ $currentPage := . }} {{ with site.Params.menu }} {{ range . }}
+    <p class="small"><a href="{{.url}}">{{.name }}</a> |</p>
+    {{ end }} {{ end }}
+  </div>
 
-    <div class="flex">
-        {{ $currentPage := . }}
-
-        {{ with site.Params.menu }}
-        {{ range . }}
-        <p class="small">
-            <a href="{{.url}}">{{.name }}</a> |
-        </p>
-        {{ end }}
-        {{ end }}
-    </div>
-
-    {{ end }}
-
+  {{ end }}
 </div>

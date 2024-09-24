@@ -48,6 +48,7 @@ p {
 ul {
   margin-top: var(--ul-margin-top);
   margin-bottom: var(--ul-margin-bottom);
+  font-size: var(--p-font-size);
 }
 
 li {

@@ -10,7 +10,7 @@ theme = 'auto'
 colorPalette = 'default'
 hideHeader = true
 
-homeIntroContent = "Building stuff then trying to remember to write about them"
+homeIntroContent = "Where some of my thoughts live"
 
 homeCollectionTitle = 'Previous Posts'
 homeCollection = 'posts'
@@ -42,13 +42,15 @@ url = "/"
 name = "posts"
 url = "/posts"
 
-# [[params.menu]]
-# name = "about"
-# url = "/about"
+
+[[params.menu]]
+name = "about"
+url = "/about"
 
 [[params.menu]]
 name = "projects"
 url = "/projects"
+
 
 # Syntax highligth on code blocks
 [markup]
