@@ -19,14 +19,15 @@ listSummaries = false
 listDateFormat = '2 Jan, 2006'
 
 breadcrumbs = true
+math = true
 
 [[params.social]]
 name = "github"
 url = "https://github.com/musaubrian"
 
-[[params.social]]
-name = "twitter"
-url = "https://x.com/ulongmax"
+# [[params.social]]
+# name = "twitter"
+# url = "https://x.com/ulongmax"
 
 # [[params.social]]
 # name = "linkedin"
