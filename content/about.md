@@ -6,10 +6,13 @@ Hey,
 
 I'm Ernest, a software engineer interested in a range of topics not limited to CLIs,
 developer tools and backend.
+I enjoy tinkering around, seeing how things work underneath
+(~*this is a recurring theme*) and then try to re-implemenet them
 
-This is a place for me to rant, write about things I find interesting.
 
-You can always reach out via [email](mailto:me@nabri.xyz)
+I truly beleive that software enginnering is an *art*, and people should enjoy it.
+
+You can check out some of my [projects](/projects) or reach out via [email](mailto:me@nabri.xyz)
 
 One of my favorite quote
 
@@ -22,7 +25,4 @@ One of my favorite quote
 
 
 *The theme of this blog started out as [typo](https://github.com/tomfran/typo)
-But heavily modified it to my liking*
-
-
-<!--[**Resume**](https://drive.google.com/file/d/1snP6ZmpwfEY1mMS_XFzCg-YHvqeObC06/view?usp=drive_link)-->
+but heavily modified it to my liking*

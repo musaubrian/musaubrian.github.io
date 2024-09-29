@@ -14,7 +14,7 @@ homeIntroContent = "Where some of my thoughts live"
 
 homeCollectionTitle = 'Previous Posts'
 homeCollection = 'posts'
-paginationSize = 6
+paginationSize = 5
 listSummaries = false
 listDateFormat = '2 Jan, 2006'
 
@@ -40,11 +40,6 @@ name = "home"
 url = "/"
 
 [[params.menu]]
-name = "posts"
-url = "/posts"
-
-
-[[params.menu]]
 name = "about"
 url = "/about"
 
@@ -52,6 +47,10 @@ url = "/about"
 name = "projects"
 url = "/projects"
 
+
+[[params.menu]]
+name = "cv"
+url = "https://cv.nabri.xyz"
 
 # Syntax highligth on code blocks
 [markup]
