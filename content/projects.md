@@ -8,7 +8,7 @@ Some of the things I've built:
 A neovim plugin that auto activates a virtual environment if present in your project.
 
 
-### **[Sik](https://github.com/musaubrian)**
+### **[Sik](https://github.com/musaubrian/sik)**
 A local search engine fro your notes.
 
 Indexes and allows you to search through your notes.

@@ -96,10 +96,9 @@ code {
   font-feature-settings: "liga", "dlig";
   font-variant-ligatures: contextual;
   font-family: "DM Mono", monospace;
-  font-size: .9em;
+  font-size: 0.9em;
   line-height: 0;
 }
-
 
 .katex-display {
   overflow-x: auto;
@@ -159,8 +158,8 @@ footer {
 
 footer a {
   font-family: "DM Mono", monospace;
-  margin-left: .2rem;
-  margin-right: .2rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
   color: var(--content-primary);
   text-decoration: underline;
 }
@@ -168,14 +167,14 @@ footer a {
 /* Posts list  */
 
 .post-line {
-  margin-top: .9rem;
-  margin-bottom: .9rem;
+  margin-top: 0.9rem;
+  margin-bottom: 0.9rem;
   display: flex;
   align-items: baseline;
 }
 
 .tag-line {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   display: flex;
   align-items: baseline;
 }
@@ -189,7 +188,7 @@ footer a {
   font-family: "Space Mono", monospace;
   font-size: 0.9rem;
   text-align: start;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   display: inline-flex;
   justify-content: start;
   color: var(--content-secondary);
@@ -219,7 +218,7 @@ a:hover {
 
 .small a {
   color: var(--color-primary);
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .small a:hover {
@@ -227,15 +226,13 @@ a:hover {
   color: var(--a-color);
 }
 
-
-
 .tag-title {
   margin: 0;
 }
 
 .line-summary {
   font-size: small;
-  margin-top: .2rem !important;
+  margin-top: 0.2rem !important;
   /* font-style: italic; */
   color: var(--content-secondary);
 }
@@ -254,16 +251,16 @@ a:hover {
 
 .pagination-control {
   min-width: 3rem;
-  margin-left: .5rem;
-  margin-right: .5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   text-align: center;
   align-items: center;
 }
 
 .page-number {
   min-width: 3rem;
-  margin-left: .5rem;
-  margin-right: .5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,7 +272,7 @@ a:hover {
 
 .social-icons {
   padding: 12px 0;
-  margin-bottom: var(--social-icons-bottom-margin)
+  margin-bottom: var(--social-icons-bottom-margin);
 }
 
 .social-icons a {
@@ -303,11 +300,11 @@ a:hover {
 }
 
 .single-title {
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .single-readtime {
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   font-size: 0.9rem;
   font-style: italic;
   font-family: monospace;
@@ -319,7 +316,6 @@ a:hover {
   font-size: 0.9rem;
   color: var(--content-secondary);
 }
-
 
 .single-content {
   margin-bottom: 5rem;
@@ -335,7 +331,7 @@ a:hover {
 }
 
 .single-tags span {
-  margin-right: .3rem;
+  margin-right: 0.3rem;
 }
 
 /* Single pagination */
@@ -346,8 +342,8 @@ a:hover {
 }
 
 .single-pagination a {
-  margin-left: .4rem;
-  margin-right: .4rem;
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
 }
 
 .single-pagination hr {
@@ -382,13 +378,13 @@ a:hover {
 .single-pagination-container-next {
   display: flex;
   min-height: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .single-pagination-container-prev {
   display: flex;
   min-height: 100%;
-  padding: .5rem;
+  padding: 0.5rem;
   float: right;
 }
 
@@ -396,20 +392,20 @@ a:hover {
 
 .toc {
   font-size: var(--p-font-size);
-  line-height: calc(.9 * var(--p-line-height));
+  line-height: calc(0.9 * var(--p-line-height));
   margin-top: var(--toc-margin-top);
   margin-bottom: var(--toc-margin-bottom);
 }
 
 .toc ul {
-  margin-top: .1rem;
-  margin-bottom: .1rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
 font-style: italic;
 .toc li {
-  margin-top: .1rem;
-  margin-bottom: .1rem;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
 }
 
 /* Autonumbering */
@@ -441,7 +437,8 @@ font-style: italic;
 }
 
 .autonumber h4:before {
-  content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) "\00a0\00a0";
+  content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter)
+    "\00a0\00a0";
 }
 
 /* images */
@@ -509,15 +506,13 @@ figcaption {
 /* breadcrumbs */
 
 .breadcrumbs {
-  font-size: .8em;
+  font-size: 0.8em;
   margin-bottom: calc(-0.5 * var(--h1-margin-top));
-
 }
-.breadcrumbs a{
+.breadcrumbs a {
   color: var(--content-secondary);
   text-decoration: underline;
 }
-
 
 /* Back to top */
 
@@ -532,7 +527,6 @@ figcaption {
 /* Code in paragraphs */
 
 p code {
-
   background-color: var(--code-background);
   border-radius: 3px;
   padding: 2px;
@@ -574,7 +568,8 @@ blockquote {
   margin: 1.5rem;
   border-left: solid 1px;
   font-style: italic;
-  color: var(--content-secondary);
+  /*color: var(--content-secondary);*/
+  color: rgb(117, 117, 117);
 }
 
 blockquote p {

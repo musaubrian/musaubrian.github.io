@@ -3,12 +3,11 @@ title: 'LLMs locally'
 description: 'LLMs on your machine'
 summary: 'Install and run large language models locally using Ollama.'
 date: 2024-07-08
-tags: ["LLMs"]
+tags: ["exploring"]
 showTags: true
 readTime: true
 ---
 
-## Intro
 If you don't already know what [ollama](https://ollama.com) is, I don't know which rock you've been living under.
 
 Basically its a simplified way of getting up and running with large language modals(**LLMs**) locally,

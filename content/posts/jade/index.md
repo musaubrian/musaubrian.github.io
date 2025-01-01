@@ -3,7 +3,8 @@ title: 'jade.nvim'
 description: "a simple neovim colorscheme"
 summary: "why I built my own colorscheme"
 date:  2024-02-24T21:40:15+03:00
-tags: ["neovim", "plugin", "colorscheme"]
+tags: ["neovim", "tooling"]
+showTags: true
 ---
 
 ![Neovim logo](nvim.jpg)
