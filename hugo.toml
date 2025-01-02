@@ -29,9 +29,9 @@ url = "https://github.com/musaubrian"
 name = "bluesky"
 url = "https://ulong.bsky.social"
 
-# [[params.social]]
-# name = "linkedin"
-# url = "https://www.linkedin.com/in/ernest-musau/"
+[[params.social]]
+name = "rss"
+url = "/index.xml"
 
 
 # Main menu pages
