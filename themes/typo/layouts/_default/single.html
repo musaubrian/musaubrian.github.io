@@ -22,7 +22,9 @@
       {{end}}
 
       {{ if .Param "readTime" }}
-       | {{ .ReadingTime }} min read
+        <span style="font-style: italic; margin-top: 0.4rem;">
+          {{ .ReadingTime }} min read
+        </span>
       {{end }}
     </p>
 
