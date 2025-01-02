@@ -48,9 +48,9 @@ name = "projects"
 url = "/projects"
 
 
-[[params.menu]]
-name = "cv"
-url = "https://cv.nabri.xyz"
+# [[params.menu]]
+# name = "cv"
+# url = "https://cv.nabri.xyz"
 
 # Syntax highligth on code blocks
 [markup]
