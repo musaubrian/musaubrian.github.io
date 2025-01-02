@@ -149,19 +149,12 @@ hr {
 /* Footer */
 
 footer {
-  font-size: small;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-height: var(--footer-height);
-}
-
-footer a {
+  gap: 0.3rem;
   font-family: "DM Mono", monospace;
-  margin-left: 0.2rem;
-  margin-right: 0.2rem;
-  color: var(--content-primary);
-  text-decoration: underline;
 }
 
 /* Posts list  */
@@ -520,9 +513,8 @@ figcaption {
 .back-to-top {
   text-align: center;
   font-size: small;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   font-family: "DM Mono", monospace;
-  /* margin-top: -3rem; */
 }
 
 /* Code in paragraphs */

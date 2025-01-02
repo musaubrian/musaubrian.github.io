@@ -12,9 +12,9 @@ hideHeader = true
 
 homeIntroContent = "Where some of my thoughts live"
 
-homeCollectionTitle = 'Previous Posts'
+homeCollectionTitle = 'Posts'
 homeCollection = 'posts'
-paginationSize = 5
+paginationSize = 20
 listSummaries = false
 listDateFormat = '2 Jan, 2006'
 
@@ -25,9 +25,9 @@ math = true
 name = "github"
 url = "https://github.com/musaubrian"
 
-# [[params.social]]
-# name = "twitter"
-# url = "https://x.com/ulongmax"
+[[params.social]]
+name = "bluesky"
+url = "https://ulong.bsky.social"
 
 # [[params.social]]
 # name = "linkedin"

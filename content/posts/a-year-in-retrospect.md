@@ -2,7 +2,7 @@
 title: "2024, Looking back"
 description: "Looking back at 2024"
 date: 2025-01-01
-tags: ["reflection"]
+tags: ["reflections"]
 showTags: true
 readTime: true
 ---
