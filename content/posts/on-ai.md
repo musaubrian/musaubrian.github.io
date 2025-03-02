@@ -42,10 +42,11 @@ I'm pretty sure I butchered his quote but you get the idea.
 The thing that annoys me the most is that these people doom posting about AI
 unfortunately usually have something to sell you.
 
-
 If you're a junior developer, all I can say is get good at your craft, its not like that
 knowledge is going to disappear, matter of fact, I believe it's going to put you ahead.
 
 > P.S
 >
 > TJ has some pretty great thoughts on curiosity
+
+ {{< youtube u-O59jWbKZE >}}
