@@ -1,7 +1,7 @@
 baseURL = '/'
 defaultContentLanguage = "en"
 languageCode = "en"
-title = "CoreDump"
+title = "Havenly Delusion"
 theme = "typo"
 
 [params]
