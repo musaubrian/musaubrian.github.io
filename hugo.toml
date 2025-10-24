@@ -25,9 +25,9 @@ math = true
 name = "github"
 url = "https://github.com/musaubrian"
 
-[[params.social]]
-name = "bluesky"
-url = "https://ulong.bsky.social"
+# [[params.social]]
+# name = "bluesky"
+# url = "https://ulong.bsky.social"
 
 [[params.social]]
 name = "rss"
@@ -42,11 +42,6 @@ url = "/"
 [[params.menu]]
 name = "about"
 url = "/about"
-
-[[params.menu]]
-name = "projects"
-url = "/projects"
-
 
 # [[params.menu]]
 # name = "cv"

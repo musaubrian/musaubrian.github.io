@@ -12,15 +12,7 @@ I enjoy tinkering around, seeing how things work underneath
 
 I truly beleive that software enginnering is an *art*, and people should enjoy it.
 
-You can check out some of my [projects](/projects) or reach out via [email](mailto:me@nabri.xyz)
-
-One of my favorite quote
-
-> The fact that I am writing to you in English already falsifies what I wanted to tell you.
->
-> My subject: how to explain to you that I don’t belong to English though I belong nowhere else.”
->
-> -- Gustavo Pérez Firmat (Bilingual Blues)
+You can check out some of my [projects](https://github.com/musaubrian?tab=repositories)
 
 
 
