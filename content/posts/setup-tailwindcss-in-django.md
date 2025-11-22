@@ -20,7 +20,7 @@ npm install -D tailwindcss
 npx tailwindcss init
 ```
 
-## 2. Configuring TaiwindCSS
+## 2. Configuring TailwindCSS
 
 Configure the `tailwind.config.js` to capture all your files with tailwind classes.
 
@@ -51,6 +51,7 @@ the base tailwindcss classes and *generated tailwind classes will be.
 ## 4. Update your base template
 Find your base template. usually `base.html` in the templates directory at the root of your project.
 Link it to the final location of the generated css.
+
 ```html
 <!-- styles will be the name you put as the output location when you run tailwind -->
 
@@ -62,6 +63,7 @@ Link it to the final location of the generated css.
 This is the crucial part, here we tell django to serve our `static` directory.
 
 In your settings.py add the following at the very bottom
+
 ```py
 # settings.py
 
@@ -71,8 +73,6 @@ SITE_ROOT = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
 STATICFILES_DIRS = (
   os.path.join(SITE_ROOT, 'static/'),
 )
-
-
 ```
 
 

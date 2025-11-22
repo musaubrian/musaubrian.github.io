@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Roboto Mono", SystemUI;
+  font-family: "Merriweather", SystemUI;
   font-optical-sizing: auto;
   margin: auto;
   max-width: var(--main-width);
@@ -21,6 +21,7 @@ h1 {
   margin-top: var(--h1-margin-top);
   margin-bottom: var(--h1-margin-bottom);
   font-size: var(--h1-font-size);
+  font-style: bold !important;
 }
 
 h2 {
@@ -41,8 +42,9 @@ h6 {
 p {
   margin-top: var(--p-margin-top);
   margin-bottom: var(--p-margin-bottom);
-  font-size: var(--p-font-size);
+  font-size: var(--p-font-size) !important;
   line-height: var(--p-line-height);
+  text-align: justify;
 }
 
 ul {
@@ -66,7 +68,7 @@ a {
 /* Code blocks */
 
 .copy-code-button {
-  background-color: var(--code-background);
+  background-color: var(--code-block-background);
   font-family: monospace;
   padding: 3px 6px;
   font-size: 0.8em;
@@ -90,11 +92,12 @@ pre {
   border-radius: var(--code-border-radius);
   margin-top: var(--code-margin-top);
   margin-bottom: var(--code-margin-bottom);
-  background-color: var(--code-background) !important;
+  background-color: var(--code-block-background) !important;
+  /* background-color: var(--code-background) !important; */
   overflow-x: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  line-height: 1.3em;
+  line-height: 1.4em;
 }
 
 pre::-webkit-scrollbar {
@@ -113,7 +116,7 @@ code {
   -o-font-feature-settings: "liga", "dlig";
   font-feature-settings: "liga", "dlig";
   font-variant-ligatures: contextual;
-  font-family: "DM Mono", monospace;
+  font-family: "Jetbrains Mono", monospace;
   font-size: 0.9em;
   line-height: 0;
 }
@@ -152,7 +155,6 @@ hr {
 }
 
 .header p {
-  font-family: monospace;
   margin-top: var(--header-menu-top-gap);
   margin-right: var(--header-menu-side-gap);
 }
@@ -172,7 +174,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 0.3rem;
-  font-family: "DM Mono", monospace;
+  font-family: "Jetbrains Mono", monospace;
 }
 
 /* Posts list  */
@@ -196,7 +198,7 @@ footer {
 }
 
 .line-date {
-  font-family: "Space Mono", monospace;
+  font-family: "Merriweather", monospace;
   font-size: 0.9rem;
   text-align: start;
   margin-bottom: 0.5rem;
@@ -316,9 +318,8 @@ a:hover {
 .single-readtime {
   display: flex;
   flex-direction: column;
+  font-family: "Merriweather";
   margin-top: 0.5rem;
-  font-size: 0.9rem;
-  font-family: monospace;
   color: var(--content-secondary);
 }
 
@@ -531,15 +532,19 @@ figcaption {
   text-align: center;
   font-size: small;
   margin-bottom: 0.5rem;
-  font-family: "DM Mono", monospace;
+  font-family: "Jetbrains Mono", monospace;
 }
 
 /* Code in paragraphs */
 
-p code {
+p code,
+li code {
   background-color: var(--code-background);
-  border-radius: 3px;
-  padding: 2px;
+  border-radius: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 6px;
 }
 
 /* Tables */
@@ -574,11 +579,9 @@ table code {
 /* Quotes */
 
 blockquote {
-  font-size: 1.1rem;
-  margin: 1.5rem;
+  margin: auto 1.1rem;
   border-left: solid 1px;
   font-style: italic;
-  /*color: var(--content-secondary);*/
   color: rgb(117, 117, 117);
 }
 

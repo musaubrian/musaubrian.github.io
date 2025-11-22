@@ -10,7 +10,7 @@ I enjoy tinkering around, seeing how things work underneath
 (~*this is a recurring theme*) and then try to re-implemenet them
 
 
-I truly beleive that software enginnering is an *art*, and people should enjoy it.
+I truly believe that software engineering is an *art*, and people should enjoy it.
 
 You can check out some of my [projects](https://github.com/musaubrian?tab=repositories)
 

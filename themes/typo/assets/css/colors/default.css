@@ -1,17 +1,22 @@
 :root {
-    --content-primary: rgb(36, 36, 36);
-    --content-secondary: rgb(117, 117, 117);
-    --background: rgb(255, 255, 255);
-    --code-background: rgb(230, 233, 239);
-    --code-border: rgb(188, 192, 204);
-    --a-color: #226ac4;
+  --content-primary: rgb(36, 36, 36);
+  --content-secondary: rgb(117, 117, 117);
+  --background: rgb(255, 255, 255);
+  --code-background: rgb(230, 233, 239);
+  --code-border: rgb(188, 192, 204);
+
+  /* no reason for the code block to not be in one state(color)*/
+  --code-block-background: rgb(33, 35, 48);
+  --code-block-border: rgb(81, 87, 109);
+
+  --a-color: #226ac4;
 }
 
 .dark {
-    --content-primary: rgb(232,236,251);
-    --content-secondary: rgb(165, 173, 206);
-    --background: rgb(20, 20, 20);
-    --code-background: rgb(33,35,48);
-    --code-border: rgb(81, 87, 109);
-    --a-color: #73a7e7;
+  --content-primary: rgb(232, 236, 251);
+  --content-secondary: rgb(165, 173, 206);
+  --background: rgb(20, 20, 20);
+  --code-background: rgb(33, 35, 48);
+  --code-border: rgb(81, 87, 109);
+  --a-color: #73a7e7;
 }

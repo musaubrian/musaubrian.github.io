@@ -11,7 +11,7 @@ Language servers, whether you know about them or don't. You've almost likely use
 It's the thing that allows your editor to autocomplete, go to definitions/type definitions.
 Frankly they are pretty great.
 
-But GingerBill had a kindof intreresting take on LSPs where he said that he doesn't use them.
+But GingerBill had a kindof interesting take on LSPs where he said that he doesn't use them.
 I thought, who the hell doesn't use an LSP completely, are they crazy or they those purists -same thing.
 But a point he said supporting this, is that you get to understand the codebase slightly better.
 I thought that can't possibly be true, so I decided to do an experiment -no I didn't ditch LSPs-
@@ -19,8 +19,10 @@ I disabled the autocomplete feature, and he may have been onto something.
 I genuinely believe that I write code differently,
 I think things through slightly better and better yet, I name things better.
 
-In as much as I like the quickfix list subing out strings with `:cdo <some_random_regex>` I could not get rid of
-`rename`. *Goto Definition* on the other hand I was kinda on-and-off about,
+In as much as I like the quickfix list subing out strings with
+`:cdo <some_random_regex>`.
+
+I could not get rid of `rename`. *Goto Definition* on the other hand I was kinda on-and-off about,
 I sub it with `grep` or `live_grep` or `vimgrep`.
 
 > Also from the linux kernel rust drama,
