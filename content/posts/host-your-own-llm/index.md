@@ -8,24 +8,30 @@ showTags: true
 readTime: true
 ---
 
-If you don't already know what [ollama](https://ollama.com) is, I don't know which rock you've been living under.
+If you don't already know what [ollama](https://ollama.com) is, I don't know
+which rock you've been living under.
 
-Basically its a simplified way of getting up and running with large language modals(**LLMs**) locally,
+Basically its a simplified way of getting up and running with large language
+modals(**LLMs**) locally,
 giving you ChatGPT like capabilities right on your very own device.
 
 Before we dive in, just a heads up:
 
-> Ollama says you should have at least 8 GB of RAM to run the 3B models, 16 GB for the 7B models, and 32 GB for the 13B big boys.
+> Ollama says you should have at least 8 GB of RAM to run the 3B models, 16 GB
+> for the 7B models, and 32 GB for the 13B big boys.
 
 Just know that bigger numbers need beefier computers.
 
-Follow the instructions on [ollama](https://ollama.com/download) to install it, once installed go ahead and search for a model that fits your needs.
+Follow the instructions on [ollama](https://ollama.com/download) to install it,
+once installed go ahead and search for a model that fits your needs.
 
-I am going to use the `neural-chat model`, its lightweight and can run in machines with less than 8gigs.
+I am going to use the `neural-chat model`, its lightweight and can run in
+machines with less than 8gigs.
 
 Download it using `ollama pull <neural-chat>` [^1].
 
-`ollama pull` downloads the model from ollama's registry to your machine and stores in the following respective locations
+`ollama pull` downloads the model from ollama's registry to your machine and
+stores in the following respective locations
 
 - Linux: `/usr/share/ollama/.ollama/models`
 - Windows: `C:\Users\%username%\.ollama\models`

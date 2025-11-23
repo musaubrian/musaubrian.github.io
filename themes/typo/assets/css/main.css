@@ -44,7 +44,6 @@ p {
   margin-bottom: var(--p-margin-bottom);
   font-size: var(--p-font-size) !important;
   line-height: var(--p-line-height);
-  text-align: justify;
 }
 
 ul {
