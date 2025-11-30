@@ -578,8 +578,8 @@ table code {
 /* Quotes */
 
 blockquote {
-  margin: auto 1.1rem;
-  border-left: solid 1px;
+  margin: auto -1.2rem;
+  border-left: solid 4px;
   font-style: italic;
   color: rgb(117, 117, 117);
 }

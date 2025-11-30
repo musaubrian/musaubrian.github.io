@@ -32,7 +32,7 @@ Was this experiment worth it. *Absolutely*.
 Will I go back to using autocomplete, *No*. I never really truly disabled it it was just there,
 but I had to intentionally trigger it if I wasn't really feeling like grepping for the thing I just forgot.
 
-If you would like to try it out, you can add this to your *[blink](https://github.com/saghen/blink.cmp) dot lua*
+If you would like to try it out, you can add this to your *[blink \[dot\] lua](https://github.com/saghen/blink.cmp)*
 
 ```lua
 -- blink.lua

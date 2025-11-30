@@ -21,8 +21,8 @@ I could not for the life of me figure out the solution, for a whole 24 hours, I 
 some tutorials. **Nothing**.
 I knew what they were trying to acheive -pst, it involved **Go**.
 
-With the interview date arriving, I decided to YOLO it. I to my own surprise
--and the interviewer- absolutely dominated the interview.
+With the interview date arriving, I decided to YOLO it. To my own surprise
+-*and the interviewer*- absolutely dominated the interview.
 Something kinda clicked while walking them through it -they helped a bit by providing some hints.
 With my reclaimed confidence, came the team interviews, I kinda was successful, met the CEO and the CTO.
 

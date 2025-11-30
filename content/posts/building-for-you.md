@@ -8,7 +8,7 @@ readTime: true
 ---
 
 Recently, I've been getting back into python development.
-I came upon the same issue: *virtual environment activation*.
+I came upon the same issue: ***virtual environment activation***.
 Now this is an already solved problem; you can use an IDE or conda(I've heard it mentioned, but haven't really used it personally).
 
 
@@ -18,7 +18,7 @@ So I went on a tangent from doing the actual thing I wanted in python, to trying
 
 What I wanted was very simple:
 - When I open a python project with a virtual env, activate it
-- LSP should still work (documentation | go to definition...)
+- LSP should still work (documentation, go to definition...)
 
 The first approach I took was just sourcing the virtual env as I'd normally do in the terminal.
 This didn't work because of how neovim handles subprocesses.
