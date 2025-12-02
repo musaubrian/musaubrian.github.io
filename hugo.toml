@@ -43,9 +43,9 @@ url = "/"
 name = "about"
 url = "/about"
 
-# [[params.menu]]
-# name = "cv"
-# url = "https://cv.nabri.xyz"
+[[params.menu]]
+name = "blogroll"
+url = "/blogroll"
 
 # Syntax highligth on code blocks
 # https://xyproto.github.io/splash/docs/all.html
