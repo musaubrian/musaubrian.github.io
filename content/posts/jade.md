@@ -7,7 +7,8 @@ tags: ["neovim", "tooling"]
 showTags: true
 ---
 
-![Neovim logo](nvim.jpg)
+> Update:\
+> Depcrecated the plugin since I incorporated it into my config
 
 I've been dailying neovim for a while now and I decided to use the nightly
 build because why not, and it was okay for most things, I mean it is neovim
