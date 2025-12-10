@@ -5,9 +5,9 @@ title: 'About'
 Hey,
 
 I'm Ernest, a software engineer interested in a range of topics not limited to CLIs,
-developer tools and backend.
+developer tools and or backend.
 I enjoy tinkering around, seeing how things work underneath
-(~*this is a recurring theme*) and then try to re-implemenet them
+(~*this is a recurring theme*) and then try to re-implement them.
 
 
 I truly believe that software engineering is an *art*, and people should enjoy it.

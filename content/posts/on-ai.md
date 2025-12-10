@@ -9,7 +9,7 @@ readTime: true
 
 Everywhere you look around, you'll probably see something to do with AI or
 "The end of software engineering", "junior developers are cooked" or some shit like that
-And it can get pretty tiring really quickly.
+and it can get pretty tiring pretty quick.
 
 Don't get me wrong, AI is impressive, heck I even use it myself sometimes, but I try to go out of my way
 and make it incredibly difficult to do so, because there's something beautiful about thinking
@@ -24,7 +24,7 @@ video out there explaining exactly that.
 But this came with its own issues, the dreaded *tutorial hell*. Same thing is happening with AI,
 > you have a problem,
 >
-> you ask gippity about it,
+> you ask \<insert-current-model> about it,
 >
 > it spits out code
 >
@@ -35,7 +35,7 @@ But this came with its own issues, the dreaded *tutorial hell*. Same thing is ha
 and this can make you feel like you are progressing really fast, when infact its just an illusion.
 
 I really liked a quote from DHH where he said something around
-> There is beauty in competence
+> "There is beauty in competence"
 
 I'm pretty sure I butchered his quote but you get the idea.
 
@@ -47,6 +47,6 @@ knowledge is going to disappear, matter of fact, I believe it's going to put you
 
 > P.S
 >
-> TJ has some pretty great thoughts on curiosity
+> I thought Teej has some pretty great thoughts on curiosity
 
  {{< youtube u-O59jWbKZE >}}
