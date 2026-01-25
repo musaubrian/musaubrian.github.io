@@ -46,6 +46,22 @@
   {{ end }}
 
 
+  <script>
+    (function addHeadingLinks(){
+      let article = document.getElementsByClassName('single-content')[0];
+      let headings = article.querySelectorAll('h1, h2, h3');
+      headings.forEach(function(heading){
+        if (heading.id) {
+          let a = document.createElement('a');
+          a.innerHTML = heading.innerHTML;
+          a.classList.add("h-a")
+          a.href = '#'+heading.id;
+          heading.innerHTML = '';
+          heading.appendChild(a);
+        }
+      });
+    })();
+  </script>
 {{ partial "footer.html" . }}
 </div>
 

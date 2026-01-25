@@ -525,6 +525,11 @@ figcaption {
   text-decoration: underline;
 }
 
+.h-a {
+  color: var(--content);
+  font-weight: 900;
+}
+
 /* Back to top */
 
 .back-to-top {
