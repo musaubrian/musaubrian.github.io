@@ -1,5 +1,5 @@
 :root {
-  --main-width: 780px;
+  --main-width: 800px;
   --main-padding: 1.4em;
   --main-padding-bottom: 3rem;
 
@@ -26,9 +26,10 @@
   --h1-font-size: 2.2rem;
   --h2-font-size: 1.8rem;
   --hx-font-size: 1.5em;
-  --p-font-size: 1.3rem;
+  --p-font-size: 1.15em;
   --p-line-height: 1.6em;
   --caption-font-size: 0.8em;
+  --code-font-size: 0.9em;
 
   /* List indentation */
   --li-indent: 1.5rem;

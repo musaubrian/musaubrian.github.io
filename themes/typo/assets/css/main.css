@@ -116,7 +116,7 @@ code {
   font-feature-settings: "liga", "dlig";
   font-variant-ligatures: contextual;
   font-family: "Jetbrains Mono", monospace;
-  font-size: 0.9em;
+  font-size: var(--code-font-size);
   line-height: 0;
 }
 
@@ -230,7 +230,7 @@ a:hover {
 
 .small a {
   color: var(--color-primary);
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 .small a:hover {
@@ -324,16 +324,15 @@ a:hover {
 
 .single-summary {
   margin-bottom: 0;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: var(--content-secondary);
 }
 
 .single-content {
   margin-bottom: 5rem;
-  font-size: 1.1rem;
 }
 .single-content > p {
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .single-tags {
@@ -448,8 +447,7 @@ font-style: italic;
 }
 
 .autonumber h4:before {
-  content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter)
-    "\00a0\00a0";
+  content: counter(h2-counter) "." counter(h3-counter) "." counter(h4-counter) "\00a0\00a0";
 }
 
 /* images */
