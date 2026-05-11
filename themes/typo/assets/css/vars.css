@@ -26,7 +26,7 @@
   --h1-font-size: 2.2rem;
   --h2-font-size: 1.8rem;
   --hx-font-size: 1.5em;
-  --p-font-size: 1.15em;
+  --p-font-size: 1.1rem;
   --p-line-height: 1.6em;
   --caption-font-size: 0.8em;
   --code-font-size: 0.9em;
@@ -67,10 +67,14 @@
   }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 750px) {
   :root {
+    --main-width: 700px;
     --header-top-gap: 1rem;
     --social-icons-bottom-margin: 0rem;
+    --p-font-size: 1.1em;
+    --p-line-height: 1.2em;
+    --code-padding: 1rem;
     --caption-padding: calc(2 * var(--main-padding));
   }
 }

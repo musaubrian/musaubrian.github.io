@@ -591,3 +591,11 @@ blockquote p {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+summary {
+  font-size: var(--p-font-size);
+  font-style: italic;
+  font-weight: 650;
+  background-color: var(--code-block-background);
+  padding: var(--table-cell-padding);
+  border-radius: var(--code-border-radius);
+}

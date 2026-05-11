@@ -16,6 +16,7 @@ meaning it gets evaluated as your program is compiling, similar to zig's comptim
 
 - **`ensure`** is also a runtime assertion cannot be disabled at all, the invariant it checks must always hold
 
+
 ---
 
 
@@ -54,6 +55,9 @@ main :: proc() {
     }
 }
 ```
+
+{{< details summary="Compilation and run results">}}
+
 ```sh
 # Runtime Assertion + Ensure
 $ odin build assertions_ensure.odin -out:assert_enabled -file
@@ -92,4 +96,4 @@ $ odin build assertions_ensure.odin -out:break_assert -define:BREAK_ASSERT=YES -
         Called within 'main' :: proc()
 ```
 
-
+{{< /details >}}
